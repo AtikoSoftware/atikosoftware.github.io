@@ -32,11 +32,6 @@ body {
  * Customize the background color to match your design.
  */
 
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
 ::selection {
     background: #16a085;
     color: #a4003a;
@@ -47,7 +42,7 @@ body {
  * A better looking default horizontal rule
  */
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -60,7 +55,7 @@ body {
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
- img {
+img {
     vertical-align: middle;
 }
 
@@ -68,7 +63,7 @@ body {
  * Allow only vertical resizing of textareas.
  */
 
- textarea {
+textarea {
     resize: vertical;
 }
 
@@ -264,7 +259,6 @@ a:after {
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
-	background-attachment: relative;
 	background-position: center center;
 	min-height: 480px;
 	width: 100%;
@@ -378,7 +372,6 @@ h4,
     background-position: center center;
     background-size: 100%;
     background-size: cover;
-    background-attachment: relative;
     text-align: center;
 }
 

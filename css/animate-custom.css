@@ -20,36 +20,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	animation-duration: 2s;
 }
 
-@-webkit-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
-@-o-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
 @keyframes fadeInDown {
 	0% {
 		opacity: 0;
@@ -64,35 +34,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .fadeInDown {
 	animation-name: fadeInDown;
-}
-@-webkit-keyframes fadeOutDown {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes fadeOutDown {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes fadeOutDown {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
 }
 
 @keyframes fadeOutDown {
@@ -110,53 +51,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeOutDown {
 	animation-name: fadeOutDown;
 }
-@-webkit-keyframes bounceOut {
-	0% {
-	}
 
-	25% {
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes bounceOut {
-	0% {
-	}
-
-	25% {
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes bounceOut {
-	0% {
-	}
-
-	25% {
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
 
 @keyframes bounceOut {
 	0% {
@@ -181,44 +76,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceOut {
 	animation-name: bounceOut;
 }
-@-webkit-keyframes bounceOutUp {
-	0% {
-	}
 
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes bounceOutUp {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes bounceOutUp {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
 
 @keyframes bounceOutUp {
 	0% {
@@ -239,44 +97,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceOutUp {
 	animation-name: bounceOutUp;
 }
-@-webkit-keyframes bounceOutDown {
-	0% {
-	}
 
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes bounceOutDown {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes bounceOutDown {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
 
 @keyframes bounceOutDown {
 	0% {
@@ -296,44 +117,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .bounceOutDown {
 	animation-name: bounceOutDown;
-}
-@-webkit-keyframes bounceOutLeft {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes bounceOutLeft {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes bounceOutLeft {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
 }
 
 @keyframes bounceOutLeft {
@@ -355,44 +138,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bounceOutLeft {
 	animation-name: bounceOutLeft;
 }
-@-webkit-keyframes bounceOutRight {
-	0% {
-	}
 
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-moz-keyframes bounceOutRight {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-@-o-keyframes bounceOutRight {
-	0% {
-	}
-
-	20% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
 
 @keyframes bounceOutRight {
 	0% {
