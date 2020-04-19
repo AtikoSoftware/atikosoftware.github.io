@@ -1,11 +1,11 @@
 !function ($) {
-  $body.scrollspy({
+  $("body").scrollspy({
     target: '#navbar-main',
     offset: 50
   })
 
-  $window.on('load', function () {
-    $body.scrollspy('refresh')
+  $(window).on('load', function () {
+    $("body").scrollspy('refresh')
   })
 
   // $('#navbar-main [href=#]').click(function (e) {
