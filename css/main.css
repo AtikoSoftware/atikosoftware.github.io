@@ -32,7 +32,6 @@ body {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
     background: #f2c2c9;
     color: #a4003a;
     text-shadow: none;
@@ -89,8 +88,6 @@ body {
     font-size: 16px;
     color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
 }
 
 .col-md-4 {
@@ -241,10 +238,6 @@ a {
     color: #3498db;
     word-wrap: break-word;
 
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
@@ -257,10 +250,6 @@ a:focus {
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
@@ -280,14 +269,8 @@ a:after {
 	min-height: 480px;
 	width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
     background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -388,29 +371,14 @@ h4,
     display: table;
     max-height: 450px;
     border-bottom: 2px solid #E6EAED;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
     padding-top: 30px;
     padding-bottom: 70px;
     margin-top: 45px;
-
-
     background-position: center center;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
     background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-
     background-attachment: relative;
-
     text-align: center;
 }
 
@@ -556,16 +524,11 @@ h4,
 }
 
 .mask figure img {
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
 }
 
 .no-touch .mask figure:hover img,
 .mask figure.cs-hover img {
-	-webkit-transform: translateY(-30px);
-	-moz-transform: translateY(-30px);
-	-ms-transform: translateY(-30px);
 	transform: translateY(-30px);
 }
 
@@ -575,24 +538,14 @@ h4,
 	top: auto;
 	bottom: 0;
 	opacity: 0;
-	-webkit-transform: translateY(100%);
-	-moz-transform: translateY(100%);
-	-ms-transform: translateY(100%);
 	transform: translateY(100%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
 .no-touch .mask figure:hover figcaption,
 .mask figure.cs-hover figcaption {
 	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
 	transform: translateY(0px);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
 
