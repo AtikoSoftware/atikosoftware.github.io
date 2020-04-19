@@ -19,7 +19,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <title>Atiko</title>
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -36,50 +35,51 @@
       <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand hidden-xs hidden-sm" href="#home">
+            <a class="navbar-brand hidden-xs hidden-sm" href="/">
               <span class="icon" style="font-size:18px; color:#3498db;"><img src="img/logo-symbol-white-540x540.png" width="25" alt="Logo"></span>
             </a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#home">Home</a></li>
-              <li> <a href="#about"> About</a></li>
-              <li> <a href="#services"> Services</a></li>
-              <li> <a href="#portfolio"> Portfolio</a></li>
-              <li> <a href="#blog"> Blog</a></li>
-              <li> <a href="#contact"> Contact</a></li>
-            </ul>
+            <nav aria-label="Breadcrumbs" id=”breadcrumb”>
+              <ul class="nav navbar-nav">
+                <li><a tabindex="0" href="#home">Home</a></li>
+                <li> <a tabindex="1" href="#about"> About</a></li>
+                <li> <a tabindex="2" href="#services"> Services</a></li>
+                <li> <a tabindex="3" href="#portfolio"> Portfolio</a></li>
+                <li> <a tabindex="4" href="#blog"> Blog</a></li>
+                <li> <a tabindex="5" href="#contact"> Contact</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
     </div>
-    <div id="home" name="home">
+    <div id="home">
       <header class="clearfix">
-        <h1>
-          <img src="img/logo-white-1000x1000.png" width="250" alt="Logo">
-        </h1>
+        <br />
+        <img src="img/logo-white-1000x1000.png" width="250" alt="Logo">
       </header>
     </div>
     <div class="greywrap">
       <div class="row">
         <div class="col-lg-4 callout">
           <span class="icon icon-stack"></span>
-          <h2>Modular</h2>
+          <h3>Modular</h3>
           <p>Atiko is powered by prototyping. The incredible modular software is the best option to run your business.</p>
         </div>
         <div class="col-lg-4 callout">
           <span class="icon icon-eye"></span>
-          <h2>Mobile Ready</h2>
+          <h3>Mobile Ready</h3>
           <p>You can use our software with your iPhone, iPad or MacBook Pro. Atiko is retina ready and that is awesome. </p>
         </div>
         <div class="col-lg-4 callout">
           <span class="icon icon-heart"></span>
-          <h2>Crafted with Love</h2>
-          <p>We don't make sites, we craft software with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+          <h3>Crafted with Love</h3>
+          <p>We don't make sites, we craft software with love &amp; passion. That is our most valued secret. We only do thing that we love.   </p>
         </div>
       </div>
     </div>
-    <div class="container" id="about" name="about">
+    <div class="container" id="about">
       <div class="row white">
         <br />
         <h1 class="centered">A LITTLE ABOUT OUR AGENCY</h1>
@@ -94,16 +94,16 @@
     </div>
     <section class="section-divider textdivider divider1">
       <div class="container">
-        <h1>CODE TO EXPAND BOUNDARIES</h1>
+        <h2>CODE TO EXPAND BOUNDARIES</h2>
         <hr />
         <p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
       </div>
     </section>
-    <div class="container" id="services" name="services">
+    <div class="container" id="services">
       <br />
       <br />
       <div class="row">
-        <h2 class="centered">ONE BRAND, ONE VOICE</h2>
+        <h3 class="centered">ONE BRAND, ONE VOICE</h3>
         <hr />
         <br />
         <div class="col-lg-offset-2 col-lg-8">
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="row">
-        <h2 class="centered">MOBILE FIRST THINKING, ALWAYS</h2>
+        <h3 class="centered">MOBILE FIRST THINKING, ALWAYS</h3>
         <hr />
         <br />
         <div class="col-lg-offset-2 col-lg-8">
@@ -124,7 +124,7 @@
     </div>
     <section class="section-divider textdivider divider2">
       <div class="container">
-        <h1>SOFTWARE IS AN INTERACTION</h1>
+        <h2>SOFTWARE IS AN INTERACTION</h2>
         <hr />
         <p>To develop a deeper and more meaningful connection with consumers, we believe software must invite them to take part in the conversation.</p>
       </div>
@@ -133,12 +133,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 centered">
-            <img class="img-responsive" src="img/macbook.png" align="" alt="MacBook">
+            <img class="img-responsive" src="img/macbook.png" alt="MacBook">
           </div>
           <div class="col-lg-4">
-            <h2>We Are Hiring!</h2>
+            <h3>We Are Hiring!</h3>
             <p>Do you want to be one of use? Sure you want, because we are an awesome team! Here we work hard every day to craft bespoke applications.</p>
-            <p><a class="btn btn-success" href="mailto:biuro@atiko.pl">Contact Us</a></p>
+            <p><a class="btn btn-success" href="mailto:biuro@atiko.pl">biuro@atiko.pl</a></p>
           </div>
         </div>
       </div>
@@ -147,16 +147,16 @@
     </div>
     <section class="section-divider textdivider divider3">
       <div class="container">
-        <h1>SOFTWARE SOLVES PROBLEMS</h1>
+        <h2>SOFTWARE SOLVES PROBLEMS</h2>
         <hr />
         <p>From the purely practical to the richly philosophical, software is the solution to a host of challenges.</p>
       </div>
     </section>
-    <div class="container" id="portfolio" name="portfolio">
+    <div class="container" id="portfolio">
       <br />
       <div class="row">
         <br />
-        <h1 class="centered">WE CREATE COOL STUFF</h1>
+        <h3 class="centered">WE CREATE COOL STUFF</h3>
         <hr />
         <br />
         <br />
@@ -232,16 +232,16 @@
     </div>
     <section class="section-divider textdivider divider4">
       <div class="container">
-        <h1>SOFTWARE WITH EMOTIONAL CONNECTION</h1>
+        <h2>SOFTWARE WITH EMOTIONAL CONNECTION</h2>
         <hr />
         <p>There’s more to code than meets the eye. It’s when it meets the heart that software creates a meaningful, lasting connection with the audience.</p>
       </div>
     </section>
-    <div class="container" id="blog" name="blog">
+    <div class="container" id="blog">
       <br />
       <div class="row">
         <br />
-        <h1 class="centered">WE LOVE STORYTELLING</h1>
+        <h3 class="centered">WE LOVE STORYTELLING</h3>
         <hr />
         <br />
         <br />
@@ -251,16 +251,16 @@
           <div class="col-lg-4 centered">
             <br />
             <p>
-              <img class="img img-circle" src="http://www.gravatar.com/avatar/78bd5efa5bac12f041025bca2b033884%3Fs=250&d=mm&r=x" alt="gravatar" width="60px" height="60px">
+              <img class="img img-circle" src="http://www.gravatar.com/avatar/78bd5efa5bac12f041025bca2b033884%3Fs=250&amp;d=mm&amp;r=x" alt="gravatar" width="60" height="60">&nbsp;
             </p>
             <h4>John Hannah</h4>
             <h5>JANUARY 16, 2018</h5>
           </div>
           <div class="col-lg-8 blog-content">
-            <h2>The Ultimate Guide to JavaScript Frameworks</h2>
+            <h3>The Ultimate Guide to JavaScript Frameworks</h3>
             <p style="text-align: justify;">"Keeping up with JavaScript frameworks can be a challenge. There are a lot of them, and seemingly another one every month. How do you know which ones might be right for your project? What are their strengths and weaknesses? How do you get started?</p>
             <p style="text-align: justify;">That’s where this guide comes in. It’s a living document that is a reference for all known front end JavaScript frameworks (archived or deprecated projects are not included). In this case, the term 'frameworks' is being used in a broad sense."</p>
-            <p><a href="https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks/" class="icon icon-link" target="blank"> Read More</a></p>
+            <p><a href="https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks/" class="icon icon-link" target="blank"> Read More about JS Frameworks</a></p>
             <br />
           </div>
         </div>
@@ -268,16 +268,16 @@
           <div class="col-lg-4 centered">
             <br />
             <p>
-              <img class="img img-circle" src="https://3otebq2knmnf3smsj0374a9u-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Justin-96x96.jpg" alt="justin" width="60px" height="60px">
+              <img class="img img-circle" src="https://3otebq2knmnf3smsj0374a9u-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/Justin-96x96.jpg" alt="justin" width="60" height="60">&nbsp;
             </p>
             <h4>Justin Etheredge</h4>
             <h5>JANUARY 29, 2018</h5>
           </div>
           <div class="col-lg-8 blog-content">
-            <h2>Software Complexity Is Killing Us</h2>
+            <h3>Software Complexity Is Killing Us</h3>
             <p style="text-align: justify;">"Since the dawn of time (before software, there was only darkness), there has been one constant: businesses want to build software cheaper and faster.</p>
             <p style="text-align: justify;">It is certainly an understandable and laudable goal – especially if you’ve spent any time around software developers. It is a goal that every engineer should support wholeheartedly, and we should always strive to create things as efficiently as possible, given the constraints of our situation."</p>
-            <p><a href="https://www.simplethread.com/software-complexity-killing-us/" class="icon icon-link" target="blank"> Read More</a></p>
+            <p><a href="https://www.simplethread.com/software-complexity-killing-us/" class="icon icon-link" target="blank"> Read More about Software Complexity</a></p>
             <br />
           </div>
         </div>
@@ -287,18 +287,18 @@
     </div>
     <section class="section-divider textdivider divider7">
       <div class="container">
-        <h1>CRAFTED WITH PRIDE IN POLAND.</h1>
+        <h2>CRAFTED WITH PRIDE IN POLAND.</h2>
       </div>
     </section>
-    <div class="container" id="contact" name="contact">
+    <div class="container" id="contact">
       <div class="row">
         <br />
-        <h1 class="centered">THANKS FOR VISITING</h1>
+        <h3 class="centered">THANKS FOR VISITING</h3>
         <hr />
         <br />
         <br />
         <div class="col-lg-4">
-          <h3>Contact Information</h3>
+          <h4>Contact Information</h4>
           <p>
             <span class="icon"></span> Atiko Sp. z o.o.<br/>
             <span class="icon"></span> VAT ID: PL7831770566<br/>
@@ -308,24 +308,23 @@
           </p>
         </div>
         <div class="col-lg-4">
-          <h3>Newsletter</h3>
+          <h4>Newsletter</h4>
           <p style="text-align: justify;">Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
-          <p>
-            <form class="form-horizontal" role="form">
-              <div class="form-group">
-                <label for="inputEmail1" class="col-lg-4 control-label">Stay in touch</label>
-                <br /><br />
-                <div class="col-lg-10">
-                  <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-                </div>
+          <br />
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputEmail1" class="col-lg-4 control-label">Stay in touch</label>
+              <br /><br />
+              <div class="col-lg-10">
+                <input tabindex="6" type="email" class="form-control" id="inputEmail1" placeholder="Email">
               </div>
-              <div class="form-group">
-                <div class="col-lg-10">
-                  <button type="submit" class="btn btn-success">Sign in</button>
-                </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-10">
+                <button tabindex="7" type="submit" class="btn btn-success">Sign in</button>
               </div>
-            </form>
-          </p>
+            </div>
+          </form>
         </div>
       </div>
     </div>

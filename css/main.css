@@ -292,7 +292,7 @@ a:after {
 }
 
 #home h1 {
-	color:#ffffff;
+	color: #ffffff;
 	/*margin-top: 90px;*/
 	padding-bottom: 30px;
 	letter-spacing: 8px;
@@ -300,6 +300,23 @@ a:after {
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
+
+h2,
+.h2 {
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+}
+h3,
+.h3 {
+  font-size: 30px;
+}
+h4,
+.h4 {
+  font-size: 24px;
+}
+
 
 #home p {
 	color:#ffffff;
@@ -397,10 +414,10 @@ a:after {
     text-align: center;
 }
 
-.textdivider h1 {
+.textdivider h1, .textdivider h2 {
 	padding-top: 70px;
 	color: white;
-	font-size: 40px;
+	font-size: 36px;
 }
 
 .textdivider p {
